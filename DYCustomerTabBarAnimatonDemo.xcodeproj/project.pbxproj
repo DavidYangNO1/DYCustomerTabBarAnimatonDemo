@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD9F53A1D046EAE00D6E95F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F5391D046EAE00D6E95F /* main.m */; };
+		3DD9F53D1D046EAE00D6E95F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F53C1D046EAE00D6E95F /* AppDelegate.m */; };
+		3DD9F5451D046EAE00D6E95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9F5441D046EAE00D6E95F /* Assets.xcassets */; };
+		3DD9F5481D046EAE00D6E95F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9F5461D046EAE00D6E95F /* LaunchScreen.storyboard */; };
+		3DD9F5521D046EEB00D6E95F /* UITabBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F5511D046EEB00D6E95F /* UITabBarItemView.m */; };
+		3DD9F5551D046F5600D6E95F /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F5541D046F5600D6E95F /* UIView+LayoutMethods.m */; };
+		3DD9F5581D046F7A00D6E95F /* QTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F5571D046F7A00D6E95F /* QTTabBar.m */; };
+		3DD9F55E1D04704200D6E95F /* QTTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F55D1D04704200D6E95F /* QTTabController.m */; };
+		3DD9F5631D04728700D6E95F /* AppDelegate+UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9F5621D04728700D6E95F /* AppDelegate+UIHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DD9F5351D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCustomerTabBarAnimatonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD9F5391D046EAE00D6E95F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DD9F53B1D046EAE00D6E95F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DD9F53C1D046EAE00D6E95F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DD9F5441D046EAE00D6E95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD9F5471D046EAE00D6E95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD9F5491D046EAE00D6E95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD9F5501D046EEB00D6E95F /* UITabBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITabBarItemView.h; sourceTree = "<group>"; };
+		3DD9F5511D046EEB00D6E95F /* UITabBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITabBarItemView.m; sourceTree = "<group>"; };
+		3DD9F5531D046F5600D6E95F /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		3DD9F5541D046F5600D6E95F /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		3DD9F5561D046F7A00D6E95F /* QTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTabBar.h; sourceTree = "<group>"; };
+		3DD9F5571D046F7A00D6E95F /* QTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTabBar.m; sourceTree = "<group>"; };
+		3DD9F55C1D04704200D6E95F /* QTTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTabController.h; sourceTree = "<group>"; };
+		3DD9F55D1D04704200D6E95F /* QTTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTabController.m; sourceTree = "<group>"; };
+		3DD9F5601D04719000D6E95F /* QTMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMacro.h; sourceTree = "<group>"; };
+		3DD9F5611D04728700D6E95F /* AppDelegate+UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UIHelper.h"; sourceTree = "<group>"; };
+		3DD9F5621D04728700D6E95F /* AppDelegate+UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UIHelper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD9F5321D046EAE00D6E95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD9F52C1D046EAE00D6E95F = {
+			isa = PBXGroup;
+			children = (
+				3DD9F5371D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo */,
+				3DD9F5361D046EAE00D6E95F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD9F5361D046EAE00D6E95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9F5351D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD9F5371D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9F54F1D046ED600D6E95F /* AnimationTabBar */,
+				3DD9F53B1D046EAE00D6E95F /* AppDelegate.h */,
+				3DD9F53C1D046EAE00D6E95F /* AppDelegate.m */,
+				3DD9F5611D04728700D6E95F /* AppDelegate+UIHelper.h */,
+				3DD9F5621D04728700D6E95F /* AppDelegate+UIHelper.m */,
+				3DD9F5561D046F7A00D6E95F /* QTTabBar.h */,
+				3DD9F5571D046F7A00D6E95F /* QTTabBar.m */,
+				3DD9F55C1D04704200D6E95F /* QTTabController.h */,
+				3DD9F55D1D04704200D6E95F /* QTTabController.m */,
+				3DD9F5441D046EAE00D6E95F /* Assets.xcassets */,
+				3DD9F5461D046EAE00D6E95F /* LaunchScreen.storyboard */,
+				3DD9F5491D046EAE00D6E95F /* Info.plist */,
+				3DD9F5381D046EAE00D6E95F /* Supporting Files */,
+			);
+			path = DYCustomerTabBarAnimatonDemo;
+			sourceTree = "<group>";
+		};
+		3DD9F5381D046EAE00D6E95F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9F5391D046EAE00D6E95F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DD9F54F1D046ED600D6E95F /* AnimationTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9F5531D046F5600D6E95F /* UIView+LayoutMethods.h */,
+				3DD9F5541D046F5600D6E95F /* UIView+LayoutMethods.m */,
+				3DD9F5501D046EEB00D6E95F /* UITabBarItemView.h */,
+				3DD9F5511D046EEB00D6E95F /* UITabBarItemView.m */,
+				3DD9F5601D04719000D6E95F /* QTMacro.h */,
+			);
+			path = AnimationTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD9F5341D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD9F54C1D046EAE00D6E95F /* Build configuration list for PBXNativeTarget "DYCustomerTabBarAnimatonDemo" */;
+			buildPhases = (
+				3DD9F5311D046EAE00D6E95F /* Sources */,
+				3DD9F5321D046EAE00D6E95F /* Frameworks */,
+				3DD9F5331D046EAE00D6E95F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYCustomerTabBarAnimatonDemo;
+			productName = DYCustomerTabBarAnimatonDemo;
+			productReference = 3DD9F5351D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD9F52D1D046EAE00D6E95F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DavidYang;
+				TargetAttributes = {
+					3DD9F5341D046EAE00D6E95F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DD9F5301D046EAE00D6E95F /* Build configuration list for PBXProject "DYCustomerTabBarAnimatonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD9F52C1D046EAE00D6E95F;
+			productRefGroup = 3DD9F5361D046EAE00D6E95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD9F5341D046EAE00D6E95F /* DYCustomerTabBarAnimatonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD9F5331D046EAE00D6E95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9F5481D046EAE00D6E95F /* LaunchScreen.storyboard in Resources */,
+				3DD9F5451D046EAE00D6E95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD9F5311D046EAE00D6E95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD9F5551D046F5600D6E95F /* UIView+LayoutMethods.m in Sources */,
+				3DD9F5521D046EEB00D6E95F /* UITabBarItemView.m in Sources */,
+				3DD9F53D1D046EAE00D6E95F /* AppDelegate.m in Sources */,
+				3DD9F5581D046F7A00D6E95F /* QTTabBar.m in Sources */,
+				3DD9F5631D04728700D6E95F /* AppDelegate+UIHelper.m in Sources */,
+				3DD9F55E1D04704200D6E95F /* QTTabController.m in Sources */,
+				3DD9F53A1D046EAE00D6E95F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DD9F5461D046EAE00D6E95F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD9F5471D046EAE00D6E95F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD9F54A1D046EAE00D6E95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD9F54B1D046EAE00D6E95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD9F54D1D046EAE00D6E95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYCustomerTabBarAnimatonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happy.DYCustomerTabBarAnimatonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DD9F54E1D046EAE00D6E95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYCustomerTabBarAnimatonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happy.DYCustomerTabBarAnimatonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD9F5301D046EAE00D6E95F /* Build configuration list for PBXProject "DYCustomerTabBarAnimatonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9F54A1D046EAE00D6E95F /* Debug */,
+				3DD9F54B1D046EAE00D6E95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD9F54C1D046EAE00D6E95F /* Build configuration list for PBXNativeTarget "DYCustomerTabBarAnimatonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD9F54D1D046EAE00D6E95F /* Debug */,
+				3DD9F54E1D046EAE00D6E95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD9F52D1D046EAE00D6E95F /* Project object */;
+}
